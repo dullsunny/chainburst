@@ -2,6 +2,8 @@
 
 联机版适合 2–6 人通过房间码一起游玩。它使用一个 Cloudflare Worker 提供网页和联机接口，用一个 D1 数据库保存房间。部署需要 Cloudflare 账户及 Worker、D1 的创建权限，操作电脑需要 Node.js 22.13 或以上版本。
 
+如果你接手维护代码、需要同时打包单机版或准备 GitHub Release，请看 [Agent 部署与发布指南](AGENT-DEPLOYMENT.md)。
+
 ## 从联机发布包部署
 
 解压联机发布包，在包含 `dist` 和 `drizzle` 的目录打开终端。
